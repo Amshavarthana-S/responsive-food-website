@@ -28,6 +28,21 @@ scroll-behavior: smooth;
 section{
     padding:2rem 9%;
 }
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem ;
+    color: #fff;
+    background: var(---black);
+    border-radius: 5rem;
+    cursor: pointer;
+    padding: 8rem,3rem;
+
+}
+.btn:hover{
+    background: vae(---blue);
+    letter-spacing: 1rem;
+}
 header{
     position: fixed;
     top:0%; left:0%; right:0;
@@ -224,7 +239,12 @@ font-size: 3rem;
     color:var(--black) ;
     font-size: 7rem;
 }
-
+.home .home-slider .slide .content p{
+    color:var(--light-color) ;
+    font-size: 2.2rem;
+    padding: 5rem 0;
+    line-height: 1.5;
+}
 
 @media (max-width:991px){
     html{
